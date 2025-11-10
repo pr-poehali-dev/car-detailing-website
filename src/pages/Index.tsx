@@ -257,7 +257,7 @@ export default function Index() {
                 <Icon name="MapPin" className="text-gold mt-1" size={24} />
                 <div>
                   <h4 className="font-semibold mb-1">Адрес</h4>
-                  <p className="text-muted-foreground">г. Москва, ул. Автомобильная, д. 15</p>
+                  <p className="text-muted-foreground">МО г. Балашиха, д. Русавкино-Романова, ул. Энергетическая, д. 14</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
