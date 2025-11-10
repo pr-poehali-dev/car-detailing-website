@@ -13,7 +13,7 @@ export default function Index() {
       <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-gold">PRESTIGE DETAILING</h1>
+            <h1 className="text-2xl font-bold text-gold">AVTODETAILING MANS</h1>
             <div className="hidden md:flex gap-8">
               <a href="#services" className="text-foreground hover:text-gold transition-colors">Услуги</a>
               <a href="#prices" className="text-foreground hover:text-gold transition-colors">Цены</a>
@@ -238,7 +238,7 @@ export default function Index() {
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <h3 className="text-4xl font-bold mb-8"><span className="text-gold">О нас</span></h3>
           <p className="text-xl text-muted-foreground mb-6">
-            Prestige Detailing — это команда профессионалов с многолетним опытом в автомобильном детейлинге. 
+            Avtodetailing Mans — это команда профессионалов с многолетним опытом в автомобильном детейлинге. 
             Мы используем только проверенные материалы и современное оборудование.
           </p>
           <p className="text-xl text-muted-foreground">
@@ -301,7 +301,7 @@ export default function Index() {
 
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>© 2024 Prestige Detailing. Все права защищены.</p>
+          <p>© 2024 Avtodetailing Mans. Все права защищены.</p>
         </div>
       </footer>
 
