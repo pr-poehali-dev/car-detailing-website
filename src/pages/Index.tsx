@@ -157,6 +157,20 @@ export default function Index() {
                 <div className="text-2xl font-bold text-gold">от 3 000 ₽</div>
               </CardContent>
             </Card>
+
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/567fd906-f604-4862-9a11-47eb70b6fb37.jpg" 
+                  alt="Полировка автомобиля"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h4 className="text-xl font-bold mb-2">Полировка автомобиля</h4>
+                <div className="text-2xl font-bold text-gold">от 15 000 ₽</div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
