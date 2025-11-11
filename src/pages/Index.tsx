@@ -36,9 +36,9 @@ export default function Index() {
 
       <section className="relative pt-32 pb-20 px-4 overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-30"
+          className="absolute inset-0 bg-contain bg-center bg-no-repeat opacity-10"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/files/7dcf320a-1b32-4f87-904b-6aa67df88866.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/files/44cd97a0-771f-421f-a9f8-44d1c4da73c5.jpg)'
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
