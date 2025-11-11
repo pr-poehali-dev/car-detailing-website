@@ -95,7 +95,7 @@ export default function Index() {
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
               <div className="relative h-48 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/d55f5434-c64c-474e-9f71-d897e35cf286.jpg" 
+                  src="https://cdn.poehali.dev/files/94689875-9a4d-45bb-b758-274947c82521.jpg" 
                   alt="Установка звездного неба"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
