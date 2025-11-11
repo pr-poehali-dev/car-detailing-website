@@ -64,71 +64,87 @@ export default function Index() {
         <div className="container mx-auto">
           <h3 className="text-4xl font-bold text-center mb-12">Наши <span className="text-gold">Услуги</span></h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/7dcf320a-1b32-4f87-904b-6aa67df88866.jpg" 
+                  alt="Шумоизоляция автомобиля"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <CardContent className="p-6">
-                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Icon name="Volume2" className="text-gold" size={28} />
-                </div>
                 <h4 className="text-xl font-bold mb-2">Шумоизоляция автомобиля</h4>
                 <div className="text-2xl font-bold text-gold">от 18 000 ₽</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/3024e439-54ea-49cf-9448-967c14ff6cc4.jpg" 
+                  alt="Перетяжка потолка"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <CardContent className="p-6">
-                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Icon name="ArrowUpCircle" className="text-gold" size={28} />
-                </div>
                 <h4 className="text-xl font-bold mb-2">Перетяжка потолка</h4>
                 <div className="text-2xl font-bold text-gold">от 25 000 ₽</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/d55f5434-c64c-474e-9f71-d897e35cf286.jpg" 
+                  alt="Установка звездного неба"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <CardContent className="p-6">
-                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Icon name="Stars" className="text-gold" size={28} />
-                </div>
                 <h4 className="text-xl font-bold mb-2">Установка звездного неба</h4>
                 <div className="text-2xl font-bold text-gold">от 30 000 ₽</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/4f40cf52-c652-4f3b-beca-30eb242ddb5b.jpg" 
+                  alt="Контурная подсветка салона"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
               <CardContent className="p-6">
-                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Icon name="Lightbulb" className="text-gold" size={28} />
-                </div>
                 <h4 className="text-xl font-bold mb-2">Контурная подсветка салона</h4>
                 <div className="text-2xl font-bold text-gold">25 000 ₽</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-card flex items-center justify-center">
+                <Icon name="Sparkles" className="text-gold" size={64} />
+              </div>
               <CardContent className="p-6">
-                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Icon name="Sparkles" className="text-gold" size={28} />
-                </div>
                 <h4 className="text-xl font-bold mb-2">Химчистка салона автомобиля</h4>
                 <div className="text-2xl font-bold text-gold">15 000 ₽</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-card flex items-center justify-center">
+                <Icon name="Droplets" className="text-gold" size={64} />
+              </div>
               <CardContent className="p-6">
-                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Icon name="Droplets" className="text-gold" size={28} />
-                </div>
                 <h4 className="text-xl font-bold mb-2">Мойка двигателя паром</h4>
                 <div className="text-2xl font-bold text-gold">от 5 000 ₽</div>
               </CardContent>
             </Card>
 
-            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
+              <div className="relative h-48 overflow-hidden bg-card flex items-center justify-center">
+                <Icon name="Zap" className="text-gold" size={64} />
+              </div>
               <CardContent className="p-6">
-                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Icon name="Zap" className="text-gold" size={28} />
-                </div>
                 <h4 className="text-xl font-bold mb-2">Полировка фар</h4>
                 <div className="text-2xl font-bold text-gold">от 3 000 ₽</div>
               </CardContent>
