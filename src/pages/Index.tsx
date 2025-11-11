@@ -149,8 +149,12 @@ export default function Index() {
             </Card>
 
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
-              <div className="relative h-48 overflow-hidden bg-card flex items-center justify-center">
-                <Icon name="Zap" className="text-gold" size={64} />
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/4a963fbc-9a0c-489c-b75e-b9ad7ada6d5b.jpg" 
+                  alt="Полировка фар"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-6">
                 <h4 className="text-xl font-bold mb-2">Полировка фар</h4>
