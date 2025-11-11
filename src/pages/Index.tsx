@@ -60,40 +60,74 @@ export default function Index() {
       <section id="services" className="py-20 px-4 bg-card">
         <div className="container mx-auto">
           <h3 className="text-4xl font-bold text-center mb-12">Наши <span className="text-gold">Услуги</span></h3>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
-              <CardContent className="p-8">
-                <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Icon name="Sparkles" className="text-gold" size={32} />
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon name="Volume2" className="text-gold" size={28} />
                 </div>
-                <h4 className="text-2xl font-bold mb-4">Полировка кузова</h4>
-                <p className="text-muted-foreground">
-                  Профессиональная полировка для восстановления заводского блеска и защиты лакокрасочного покрытия.
-                </p>
+                <h4 className="text-xl font-bold mb-2">Шумоизоляция автомобиля</h4>
+                <div className="text-2xl font-bold text-gold">от 18 000 ₽</div>
               </CardContent>
             </Card>
 
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
-              <CardContent className="p-8">
-                <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Icon name="Eraser" className="text-gold" size={32} />
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon name="ArrowUpCircle" className="text-gold" size={28} />
                 </div>
-                <h4 className="text-2xl font-bold mb-4">Удаление царапин</h4>
-                <p className="text-muted-foreground">
-                  Эффективное удаление царапин, потёртостей и других дефектов с помощью передовых технологий.
-                </p>
+                <h4 className="text-xl font-bold mb-2">Перетяжка потолка</h4>
+                <div className="text-2xl font-bold text-gold">от 25 000 ₽</div>
               </CardContent>
             </Card>
 
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
-              <CardContent className="p-8">
-                <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Icon name="Star" className="text-gold" size={32} />
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon name="Stars" className="text-gold" size={28} />
                 </div>
-                <h4 className="text-2xl font-bold mb-4">Восстановление блеска</h4>
-                <p className="text-muted-foreground">
-                  Комплексная обработка для возвращения вашему автомобилю первозданного вида и сияния.
-                </p>
+                <h4 className="text-xl font-bold mb-2">Установка звездного неба</h4>
+                <div className="text-2xl font-bold text-gold">от 30 000 ₽</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon name="Lightbulb" className="text-gold" size={28} />
+                </div>
+                <h4 className="text-xl font-bold mb-2">Контурная подсветка салона</h4>
+                <div className="text-2xl font-bold text-gold">25 000 ₽</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon name="Sparkles" className="text-gold" size={28} />
+                </div>
+                <h4 className="text-xl font-bold mb-2">Химчистка салона автомобиля</h4>
+                <div className="text-2xl font-bold text-gold">15 000 ₽</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon name="Droplets" className="text-gold" size={28} />
+                </div>
+                <h4 className="text-xl font-bold mb-2">Мойка двигателя паром</h4>
+                <div className="text-2xl font-bold text-gold">от 5 000 ₽</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background border-border hover:border-gold transition-all duration-300 group">
+              <CardContent className="p-6">
+                <div className="w-14 h-14 bg-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Icon name="Zap" className="text-gold" size={28} />
+                </div>
+                <h4 className="text-xl font-bold mb-2">Полировка фар</h4>
+                <div className="text-2xl font-bold text-gold">от 3 000 ₽</div>
               </CardContent>
             </Card>
           </div>
@@ -102,79 +136,17 @@ export default function Index() {
 
       <section id="prices" className="py-20 px-4">
         <div className="container mx-auto">
-          <h3 className="text-4xl font-bold text-center mb-12">Наши <span className="text-gold">Цены</span></h3>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="bg-card border-border hover:border-gold transition-all duration-300">
-              <CardContent className="p-8">
-                <h4 className="text-xl font-bold mb-2">Базовый</h4>
-                <div className="text-4xl font-bold text-gold mb-6">15 000 ₽</div>
-                <ul className="space-y-3 text-muted-foreground">
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-gold mt-1" size={20} />
-                    <span>Мойка кузова</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-gold mt-1" size={20} />
-                    <span>Чистка салона</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-gold mt-1" size={20} />
-                    <span>Базовая полировка</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-gold text-black border-gold scale-105 shadow-2xl">
-              <CardContent className="p-8">
-                <div className="text-sm font-bold mb-2">ПОПУЛЯРНЫЙ</div>
-                <h4 className="text-xl font-bold mb-2">Премиум</h4>
-                <div className="text-4xl font-bold mb-6">35 000 ₽</div>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="mt-1" size={20} />
-                    <span>Всё из базового</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="mt-1" size={20} />
-                    <span>Удаление царапин</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="mt-1" size={20} />
-                    <span>Глубокая полировка</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="mt-1" size={20} />
-                    <span>Защитное покрытие</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-card border-border hover:border-gold transition-all duration-300">
-              <CardContent className="p-8">
-                <h4 className="text-xl font-bold mb-2">Максимум</h4>
-                <div className="text-4xl font-bold text-gold mb-6">60 000 ₽</div>
-                <ul className="space-y-3 text-muted-foreground">
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-gold mt-1" size={20} />
-                    <span>Всё из премиума</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-gold mt-1" size={20} />
-                    <span>Керамическое покрытие</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-gold mt-1" size={20} />
-                    <span>Химчистка салона</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="Check" className="text-gold mt-1" size={20} />
-                    <span>Полировка фар</span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Все услуги выполняются профессиональным оборудованием с использованием качественных материалов
+          </p>
+          <div className="text-center">
+            <Button 
+              size="lg"
+              onClick={() => setShowBooking(true)}
+              className="bg-gold hover:bg-gold-dark text-black font-semibold text-lg px-8 py-6"
+            >
+              Записаться на услугу
+            </Button>
           </div>
         </div>
       </section>
