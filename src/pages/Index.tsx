@@ -43,11 +43,10 @@ export default function Index() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
         <div className="container mx-auto text-center relative z-10">
-          <img 
-            src="https://cdn.poehali.dev/files/44cd97a0-771f-421f-a9f8-44d1c4da73c5.jpg" 
-            alt="AVTODETAILING MANS" 
-            className="w-full max-w-2xl mx-auto mb-8 animate-fade-in"
-          />
+          <h2 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+            <span className="text-white">AvtoDetailing</span><br />
+            <span className="text-gold">MANS</span>
+          </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in">
             Профессиональная забота о вашем автомобиле. Восстановление блеска, защита и безупречный вид.
           </p>
