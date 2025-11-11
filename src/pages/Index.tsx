@@ -203,8 +203,8 @@ export default function Index() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             <div className="group relative overflow-hidden rounded-lg aspect-square">
               <img 
-                src="https://cdn.poehali.dev/files/7dcf320a-1b32-4f87-904b-6aa67df88866.jpg" 
-                alt="Шумоизоляция салона"
+                src="https://cdn.poehali.dev/files/81cccc34-9c97-4065-8590-4b576ef37a89.jpg" 
+                alt="Химчистка салона: До и После"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
             </div>
