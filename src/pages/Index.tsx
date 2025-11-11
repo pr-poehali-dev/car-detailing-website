@@ -109,7 +109,7 @@ export default function Index() {
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
               <div className="relative h-48 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/4f40cf52-c652-4f3b-beca-30eb242ddb5b.jpg" 
+                  src="https://cdn.poehali.dev/files/3dce0029-f196-4cad-beee-30248bdefc05.jpg" 
                   alt="Контурная подсветка салона"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
