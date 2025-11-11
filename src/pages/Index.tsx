@@ -121,8 +121,12 @@ export default function Index() {
             </Card>
 
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
-              <div className="relative h-48 overflow-hidden bg-card flex items-center justify-center">
-                <Icon name="Sparkles" className="text-gold" size={64} />
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/b292d047-329e-48d1-be96-d4525aff996e.jpg" 
+                  alt="Химчистка салона автомобиля"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-6">
                 <h4 className="text-xl font-bold mb-2">Химчистка салона автомобиля</h4>
