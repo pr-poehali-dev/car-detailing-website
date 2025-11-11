@@ -81,7 +81,7 @@ export default function Index() {
             <Card className="bg-background border-border hover:border-gold transition-all duration-300 group overflow-hidden">
               <div className="relative h-48 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/files/3024e439-54ea-49cf-9448-967c14ff6cc4.jpg" 
+                  src="https://cdn.poehali.dev/files/0a1fa21d-4d42-4159-86d4-81d4785c250d.jpg" 
                   alt="Перетяжка потолка"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
