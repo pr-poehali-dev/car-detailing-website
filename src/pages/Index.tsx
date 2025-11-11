@@ -36,17 +36,18 @@ export default function Index() {
 
       <section className="relative pt-32 pb-20 px-4 overflow-hidden">
         <div 
-          className="absolute inset-0 bg-contain bg-center bg-no-repeat opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-15"
           style={{
             backgroundImage: 'url(https://cdn.poehali.dev/files/44cd97a0-771f-421f-a9f8-44d1c4da73c5.jpg)'
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
         <div className="container mx-auto text-center relative z-10">
-          <h2 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Премиальный<br />
-            <span className="text-gold">Авто Детейлинг</span>
-          </h2>
+          <img 
+            src="https://cdn.poehali.dev/files/44cd97a0-771f-421f-a9f8-44d1c4da73c5.jpg" 
+            alt="AVTODETAILING MANS" 
+            className="w-full max-w-2xl mx-auto mb-8 animate-fade-in"
+          />
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in">
             Профессиональная забота о вашем автомобиле. Восстановление блеска, защита и безупречный вид.
           </p>
