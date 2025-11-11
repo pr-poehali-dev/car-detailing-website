@@ -210,8 +210,8 @@ export default function Index() {
             </div>
             <div className="group relative overflow-hidden rounded-lg aspect-square">
               <img 
-                src="https://cdn.poehali.dev/files/3024e439-54ea-49cf-9448-967c14ff6cc4.jpg" 
-                alt="Шумоизоляция пола"
+                src="https://cdn.poehali.dev/files/625ee2d3-37dd-4b3f-bac9-8a33a36e5349.jpg" 
+                alt="Контурная подсветка салона"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
             </div>
