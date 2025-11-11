@@ -13,11 +13,14 @@ export default function Index() {
       <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-gold">AVTODETAILING MANS</h1>
+            <img 
+              src="https://cdn.poehali.dev/files/44cd97a0-771f-421f-a9f8-44d1c4da73c5.jpg" 
+              alt="AVTODETAILING MANS" 
+              className="h-12 md:h-16 w-auto"
+            />
             <div className="hidden md:flex gap-8">
               <a href="#services" className="text-foreground hover:text-gold transition-colors">Услуги</a>
-              <a href="#prices" className="text-foreground hover:text-gold transition-colors">Цены</a>
-              <a href="#reviews" className="text-foreground hover:text-gold transition-colors">Отзывы</a>
+              <a href="#gallery" className="text-foreground hover:text-gold transition-colors">Работы</a>
               <a href="#about" className="text-foreground hover:text-gold transition-colors">О нас</a>
               <a href="#contacts" className="text-foreground hover:text-gold transition-colors">Контакты</a>
             </div>
@@ -33,9 +36,9 @@ export default function Index() {
 
       <section className="relative pt-32 pb-20 px-4 overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/fd04e486-fbd4-480b-a3f8-efc18378822f/files/9255074a-b099-4fd7-bc03-6346d51d9328.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/files/7dcf320a-1b32-4f87-904b-6aa67df88866.jpg)'
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background" />
@@ -151,51 +154,39 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="reviews" className="py-20 px-4 bg-card">
+      <section id="gallery" className="py-20 px-4 bg-card">
         <div className="container mx-auto">
-          <h3 className="text-4xl font-bold text-center mb-12"><span className="text-gold">Отзывы</span> клиентов</h3>
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="bg-background border-border">
-              <CardContent className="p-6">
-                <div className="flex gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Icon key={i} name="Star" className="text-gold fill-gold" size={20} />
-                  ))}
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  "Невероятный результат! Автомобиль выглядит как новый. Профессиональный подход и внимание к деталям."
-                </p>
-                <div className="font-semibold">Александр М.</div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-background border-border">
-              <CardContent className="p-6">
-                <div className="flex gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Icon key={i} name="Star" className="text-gold fill-gold" size={20} />
-                  ))}
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  "Лучший детейлинг в городе! Удалили все царапины, теперь машина блестит как в салоне. Рекомендую!"
-                </p>
-                <div className="font-semibold">Дмитрий К.</div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-background border-border">
-              <CardContent className="p-6">
-                <div className="flex gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Icon key={i} name="Star" className="text-gold fill-gold" size={20} />
-                  ))}
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  "Премиальный сервис! Очень доволен качеством работы и отношением персонала. Буду обращаться ещё."
-                </p>
-                <div className="font-semibold">Сергей В.</div>
-              </CardContent>
-            </Card>
+          <h3 className="text-4xl font-bold text-center mb-4">Наши <span className="text-gold">Работы</span></h3>
+          <p className="text-center text-muted-foreground mb-12">Примеры шумоизоляции автомобилей</p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/7dcf320a-1b32-4f87-904b-6aa67df88866.jpg" 
+                alt="Шумоизоляция салона"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/3024e439-54ea-49cf-9448-967c14ff6cc4.jpg" 
+                alt="Шумоизоляция пола"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/d55f5434-c64c-474e-9f71-d897e35cf286.jpg" 
+                alt="Шумоизоляция багажника"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/4f40cf52-c652-4f3b-beca-30eb242ddb5b.jpg" 
+                alt="Процесс шумоизоляции"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
           </div>
         </div>
       </section>
