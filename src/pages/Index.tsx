@@ -199,7 +199,7 @@ export default function Index() {
       <section id="gallery" className="py-20 px-4 bg-card">
         <div className="container mx-auto">
           <h3 className="text-4xl font-bold text-center mb-4">Наши <span className="text-gold">Работы</span></h3>
-          <p className="text-center text-muted-foreground mb-12">Примеры шумоизоляции автомобилей</p>
+          <p className="text-center text-muted-foreground mb-12">Примеры выполненных работ по детейлингу</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             <div className="group relative overflow-hidden rounded-lg aspect-square">
               <img 
@@ -226,6 +226,34 @@ export default function Index() {
               <img 
                 src="https://cdn.poehali.dev/files/4f40cf52-c652-4f3b-beca-30eb242ddb5b.jpg" 
                 alt="Процесс шумоизоляции"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/e6368c11-f537-4cdd-931f-c0254285e0e8.jpg" 
+                alt="Полировка автомобиля"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/f3b9cdf8-d99a-44da-8084-4e534c41e572.jpg" 
+                alt="Полировка фар"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/ee855b90-e820-49a5-bc81-f57703efde75.jpg" 
+                alt="Полировка фонарей"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="group relative overflow-hidden rounded-lg aspect-square">
+              <img 
+                src="https://cdn.poehali.dev/files/a2229b4b-9f64-4d0f-a4b9-93c86d63a435.jpg" 
+                alt="Интерьер детейлинг-центра"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />
             </div>
